@@ -19,7 +19,7 @@ def send_embrace_to_user(user: User):
     if user.subscription_word:
         send_text(user.chat_id, f"Hello there 😜!\nIt is time for a virtual embrace:")
         embrace_url = GiphyApiClient().get_random_gif_url('embrace')
-        resp = send_photo(user.chat_id, embrace_url)
+        resp = send_text(user.chat_id, embrace_url)
         print(resp)
 
 
