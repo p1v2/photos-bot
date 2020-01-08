@@ -10,7 +10,7 @@ def _api_path(hash_tag):
     """
     Instagram secret API path
     """
-    return f"{PROTOCOL}://{API_HOST}/tags/{hash_tag}"
+    return f"{PROTOCOL}://{API_HOST}/explore/tags/{hash_tag}/"
 
 
 def get_image_urls_by_hash_tag(hash_tag):
