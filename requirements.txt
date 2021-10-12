@@ -1,6 +1,6 @@
 flask==1.0.3
 gunicorn==19.9.0
-opencv-python==4.1.2.30
+opencv-python==4.2.0.32
 pony==0.7.10
 requests==2.22.0
 psycopg2
